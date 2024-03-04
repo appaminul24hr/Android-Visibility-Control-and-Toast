@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#0097A7"
+    android:padding="20dp"
+    android:gravity="center"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/displayImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/android"
+        >
+
+    </ImageView>
+
+
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Image"
+        android:textSize="30sp"
+        android:padding="15dp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        >
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/goneButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gone Image"
+        android:textSize="30sp"
+        android:padding="15dp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        >
+
+    </Button>
+
+
+
+
+
+
+
+</LinearLayout>
